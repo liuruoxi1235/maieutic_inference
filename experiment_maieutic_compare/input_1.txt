@@ -1,0 +1,1 @@
+{B: How does the respondent feel about how harshly courts deal with criminals? [too harshly; not harshly enough; about right (phone mode only: volunteered)]; A: Does the respondent support or oppose a law requiring a police permit to buy a gun? favor; [0.1284; 0.4321; 0.4395]}

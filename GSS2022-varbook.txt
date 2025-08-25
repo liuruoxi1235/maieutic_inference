@@ -1,0 +1,1185 @@
+year: gss year for this respondent
+id: respondent id number
+wrkstat: labor force status
+hrs1: number of hours worked last week
+hrs2: number of hours usually work a week
+evwork: ever work as long as one year
+wrkslf: r self-emp or works for somebody
+occ10: r's census occupation code (2010)
+prestg10: r's occupational prestige score (2010)
+prestg105plus: r's occupational prestige score using threshold method (2010)
+indus10: r's industry code (naics 2007)
+marital: marital status
+martype: marital type
+divorce: ever been divorced or separated
+widowed: ever been widowed
+spwrksta: spouse labor force status
+sphrs1: number of hrs spouse worked last week
+sphrs2: no. of hrs spouse usually works a week
+spevwork: spouse ever work as long as a year
+cowrksta: partner's labor force status
+coevwork: partner ever work as long as a year
+cohrs1: number of hours partner worked last week
+cohrs2: no. of hours partner usually works a week
+spwrkslf: spouse self-emp. or works for somebody
+sppres80: spouse's occupational prestige score (1980)
+spocc10: spouse census occupation code (2010)
+sppres10: spouse occupational prestige score (2010)
+sppres105plus: spouse occupational prestige score using threshold method (2010)
+spind10: spouse's industry code (naics 2007)
+coocc10: partner's census occupation code (2010)
+coind10: partner's industry code (2010)
+pawrkslf: father self-emp. or worked for somebody
+paocc10: father's census occupation code (2010)
+papres10: father's occupational prestige score (2010)
+papres105plus: father's occupational prestige score using threshold method (2010)
+paind10: father's industry code (naics 2007)
+mawrkslf: mother self-emp. or worked for somebody
+maocc10: mothers census occupation code (2010)
+mapres10: mothers occupational prestige score (2010)
+mapres105plus: mothers occupational prestige score using threshold method (2010)
+maind10: mothers industry code (naics 2007)
+sibs: number of brothers and sisters
+childs: number of children
+age: age of respondent
+agekdbrn: r's age when 1st child born
+educ: highest year of school completed
+paeduc: highest year school completed, father
+maeduc: highest year school completed, mother
+speduc: highest year school completed, spouse
+coeduc: highest year school completed, partner
+codeg: partner's highest degree
+degree: r's highest degree
+padeg: father's highest degree
+madeg: mothers highest degree
+spdeg: spouse's highest degree
+major1: college major 1
+major2: college major 2
+dipged: diploma, ged, or other
+sex: respondents sex
+race: race of respondent
+res16: type of place lived in when 16 yrs old
+reg16: region of residence, age 16
+mobile16: geographic mobility since age 16
+family16: living with parents when 16 yrs old
+famdif16: reason not living with parents
+mawrkgrw: mothers employment when r was 16
+incom16: r's family income when 16 yrs old
+born: was r born in this country
+parborn: were r's parents born in this country
+granborn: how many grandparents born outside u.s.
+hompop: number of persons in household
+babies: household members less than 6 yrs old
+preteen: household members 6 thru 12 yrs old
+teens: household members 13 thru 17 yrs old
+adults: household members 18 yrs and older (household roster)
+unrelat: number in household not related
+earnrs: how many in family earned money
+income: total family income
+rincome: respondents income
+income16: total family income
+rincom16: respondents income
+region: region of interview
+xnorcsiz: expanded norc size code
+srcbelt: src beltcode
+size: size of place in 1000s
+partyid: political party affiliation
+vote16: remember if voted in 2016 election
+pres16: vote clinton or trump
+if16who: who you would have voted for
+polviews: think of self as liberal or conservative
+natspac: space exploration program
+natenvir: improving & protecting environment
+natheal: improving & protecting nations health
+natcity: solving problems of big cities
+natcrime: halting rising crime rate
+natdrug: dealing with drug addiction
+nateduc: improving nations education system
+natrace: improving the conditions of blacks
+natarms: military, armaments, and defense
+nataid: foreign aid
+natfare: welfare
+natroad: highways and bridges
+natsoc: social security
+natmass: mass transportation
+natpark: parks and recreation
+natchld: assistance for childcare
+natsci: supporting scientific research
+natenrgy: developing alternative energy sources
+natspacy: space exploration:version y
+natenviy: the environment:version y
+nathealy: health:version y
+natcityy: assistance to big cities:version y
+natcrimy: law enforcement:version y
+natdrugy: drug rehabilitation:version y
+nateducy: education:version y
+natracey: assistance to blacks:version y
+natarmsy: national defense:version y
+nataidy: assistance to other countries:ver y
+natfarey: assistance to the poor:version y
+eqwlth: should govt reduce income differences
+tax: r's federal income tax
+spkath: allow anti-religionist to speak
+colath: allow anti-religionist to teach
+libath: allow anti-religious book in library
+spkrac: allow racist to speak
+colrac: allow racist to teach
+librac: allow racists book in library
+spkcom: allow communist to speak
+colcom: should communist teacher be fired
+libcom: allow communists book in library
+spkmslm: allow muslim clergymen preaching hatred of the us
+colmslm: allow anti-american muslim clergymen teaching in college
+libmslm: allow anti-american muslim clergymen's books in library
+cappun: favor or oppose death penalty for murder
+gunlaw: favor or oppose gun permits
+courts: courts dealing with criminals
+grass: should marijuana be made legal
+relig: r's religious preference
+denom: specific denomination
+other: other protestant denominations
+jew: what sort of jew r is
+fund: how fundamentalist is r currently
+attend: how often r attends religious services
+reliten: strength of affiliation
+postlife: belief in life after death
+pray: how often does r pray
+popespks: pope is infallible on matter's of faith or morals
+relig16: religion in which raised
+denom16: denomination in which r was raised
+oth16: other protestant denominations
+jew16: what sort of jew r was at age 16
+fund16: how fundamentalist was r at age 16
+sprel: spouse's religious preference
+spden: specific denomination, spouse
+spother: other protestant denominations
+spjew: what sort of jew is r's spouse currently
+spfund: how fundamentalist is spouse currently
+corel: partner's religious preference
+coden: partner's denomination
+coother: other protestant denominations
+cojew: what sort of jew is r's partner currently
+cofund: how fundamentalist is partner's current religion
+prayer: bible prayer in public schools
+bible: feelings about the bible
+racopen: vote on open housing law
+raclive: any opp. race in neighborhood
+affrmact: favor preference in hiring blacks
+wrkwayup: blacks overcome prejudice without favors
+happy: general happiness
+hapmar: happiness of marriage
+hapcohab: happiness of relt with partner
+health: condition of health
+life: is life exciting or dull
+helpful: people helpful or looking out for selves
+fair: people fair or try to take advantage
+trust: can people be trusted
+confinan: confid in banks & financial institutions
+conbus: confidence in major companies
+conclerg: confidence in organized religion
+coneduc: confidence in education
+confed: confid. in exec branch of fed govt
+conlabor: confidence in organized labor
+conpress: confidence in press
+conmedic: confidence in medicine
+contv: confidence in television
+conjudge: confid. in united states supreme court
+consci: confidence in scientific community
+conlegis: confidence in congress
+conarmy: confidence in military
+obey: to obey
+popular: to be well liked or popular
+thnkself: to think for ones self
+workhard: to work hard
+helpoth: to help others
+socrel: spend evening with relatives
+socommun: spend evening with neighbor
+socfrend: spend evening with friends
+socbar: spend evening at bar
+aged: should aged live with their children
+weekswrk: weeks r worked last year
+partfull: was r's work part-time or full-time?
+joblose: is r likely to lose job
+jobfind: could r find equally good job
+satjob: work satisfaction
+richwork: if rich, continue or stop working
+class: subjective class identification
+rank: r's self ranking of social position
+satfin: satisfaction with financial situation
+finalter: change in financial situation
+finrela: opinion of family income
+wksub: does r or spouse have supervisor
+wksubs: does supervisor have supervisor
+wksub1: does r or spouse or partner have a supervisor
+wksubs1: does supervisor have supervisor
+wksup: does r or spouse supervise anyone
+wksups: does subordinate supervise anyone
+wksup1: does r or spouse or partner supervise anyone
+wksups1: does subordinant supervise anyone
+unemp: ever unemployed in last ten yrs
+union: does r or spouse belong to union
+union1: does r or spouse or partner belong to union
+getahead: opinion of how people get ahead
+parsol: r's living standard compared to parents
+kidssol: r's kids living standard compared to r
+fepol: women not suited for politics
+abdefect: strong chance of serious defect
+abnomore: married--wants no more children
+abhlth: woman's health seriously endangered
+abpoor: low income--cant afford more children
+abrape: pregnant as result of rape
+absingle: not married
+abany: abortion if woman wants for any reason
+chldidel: ideal number of children
+pillok: birth control to teenagers 14-16
+sexeduc: sex education in public schools
+divlaw: divorce laws
+premarsx: sex before marriage
+teensex: sex before marriage:teens 14-16
+xmarsex: sex with person other than spouse
+homosex: homosexual sex relations
+pornlaw: feelings about pornography laws
+xmovie: seen x-rated movie in last year
+spanking: favor spanking to discipline child
+letdie1: allow incurable patients to die
+suicide1: suicide if incurable disease
+suicide2: suicide if bankrupt
+suicide3: suicide if dishonored family
+suicide4: suicide if tired of living
+polhitok: ever approve of police striking citizen
+polabuse: citizen said vulgar or obscene things
+polmurdr: citizen questioned as murder suspect
+polescap: citizen attempting to escape custody
+polattak: citizen attacking policeman with fists
+fear: afraid to walk at night in neighborhood
+owngun: have gun in home
+pistol: pistol or revolver in home
+shotgun: shotgun in home
+rifle: rifle in home
+rowngun: does gun belong to r
+hunt: does r or spouse hunt
+hunt1: does r or spouse or partner hunt
+news: how often does r read newspaper
+tvhours: hours per day watching tv
+phone: does r have telephone
+coop: r's attitude toward interview
+comprend: r's understanding of questions
+form: form of split questionnaire asked
+fechld: mother working doesn't hurt children
+fepresch: preschool kids suffer if mother works
+fefam: better for man to work, woman tend home
+racdif1: differences due to discrimination
+racdif2: differences due to in-born learning ability
+racdif3: differences due to lack of education
+racdif4: differences due to lack of will
+helppoor: should govt improve standard of living?
+helpnot: should govt do more or less?
+helpsick: should govt help pay for medical care?
+helpblk: should govt aid blacks?
+god: r's confidence in the existence of god
+reborn: has r ever had a 'born again' experience
+savesoul: tried to convince others to accept jesus
+wlthwhts: rich - poor
+wlthblks: rich - poor
+wlthhsps: rich - poor
+workwhts: hard working - lazy
+workblks: hard working - lazy
+workhsps: hard working -lazy
+intlwhts: unintelligent -intelligent
+intlblks: unintelligent - intelligent
+intlhsps: unintelligent - intelligent
+liveblks: neighborhood half black
+marblk: close relative marry black
+marasian: close relative marry asian
+marhisp: close relative marry hispanic
+marwht: r favor close relative marrying white person
+racwork: racial makeup of workplace
+discaff: whites hurt by aff. action
+yousup: how many people do you supervise directly
+spwksup: does spouse supervise anyone
+fejobaff: for or against preferential hiring of women
+discaffm: a man won't get a job or promotion
+discaffw: a woman won't get a job or promotion
+fehire: should hire and promote women
+relpersn: r consider self a religious person
+sprtprsn: r consider self a spiritual person
+othlang: can r speak language other than english/spanish
+spklang: how well does r speak other language
+betrlang: which language r speaks more fluent
+letinhsp: immigration from latin america should be increased
+letinasn: immigration from asia should be increased
+compuse: r use computer
+webmob: r uses home internet through mobile device
+emailmin: email minutes per week
+emailhr: email hours per week
+usewww: r use www other than email
+wwwhr: www hours per week
+wwwmin: www minutes per week
+huclean: r hu interior cleanliness rating
+wrktype: work arrangement at main job
+yearsjob: time at current job
+waypaid: how paid in main job
+wrksched: usual work schedule
+moredays: days per month r work extra hours
+mustwork: mandatory to work extra hours
+wrkhome: how often r works at home
+whywkhme: usual reason r work at home
+famwkoff: how hard to take time off
+wkvsfam: how often job interferes fam life
+famvswk: how often fam life interfere job
+hrsrelax: hours per day r have to relax
+secondwk: r has job other than main
+learnnew: job requires r to learn new things
+workfast: job requires r to work fast
+workdiff: r does numerous things on job
+overwork: r has too much work to do well
+knowwhat: r knows what's expected on job
+myskills: job allows r use of skills
+respect: r treated with respect at work
+trustman: r trust management at work
+safetywk: worker safety priority at work
+safefrst: no shortcuts on worker safety
+teamsafe: mgt and employees work together re safety
+safehlth: safety and health condition good at work
+proudemp: r proud to work for employer
+prodctiv: work conditions allow productivity
+wksmooth: workplace runs in smooth manner
+trdunion: workers need strong unions
+partteam: r work as part of a team
+wkdecide: how often r take part in decisions
+toofewwk: how often not enough staff
+promteok: r's chances for promotion good
+opdevel: opportunity to develop my abilities
+hlpequip: enough help and equip to ge the job done
+haveinfo: enough info to get the job done
+wkfreedm: a lot of freedom to decide how to do job
+fringeok: fringe benefits are good
+supcares: supervisor concerned about welfare
+condemnd: r free from conflicting demands
+promtefr: promotions are handled fairly
+cowrkint: coworkers take a personal interest in r
+jobsecok: the job security is good
+suphelp: supervisor helpful to r in getting job done
+wrktime: r has enough time to get the job done
+cowrkhlp: coworkers can be relied on when r needs help
+manvsemp: relations bw management and employees
+hvylift: r do repeated lifting
+handmove: r perform forceful hand movements
+wkpraise: r is likely to be praised by supervisor
+fairearn: how fair is what r earn on the job
+rincblls: income alone is enough
+laidoff: r was laid off main job last year
+jobfind1: how easy for r to find a same job
+trynewjb: how likely r make effort for new job next year
+wkageism: r feels discriminated because of age
+wkracism: r feels discriminated because of race
+wksexism: r feels discriminated because of gender
+wkharsex: r sexually harassed on the job last 12 months
+wkharoth: r threatened on the job last 12 months
+health1: r's health in general
+physhlth: days of poor physical health past 30 days
+mntlhlth: days of poor mental health past 30 days
+hlthdays: days of activity limitation past 30 days
+usedup: how often during past month r felt used up
+backpain: r had back pain in the past 12 months
+painarms: r had pain in the arms in the past 12 months
+hurtatwk: number of injuries on the job past 12 months
+spvtrfair: supervisor is fair
+strredpg: access to stress management
+phyeffrt: rate physical effort
+slpprblm: trouble sleeping last 12 months
+satjob1: job satisfaction in general
+knowschd: how far in advance know work schedule
+usetech: percentage of time use tech
+stress12: stress management program last 12 months
+hyperten: told have hypertension or high blood pressure
+arthrtis: told have arthritis or rheumatism
+diabetes: told have diabetes
+depress: told have depression
+weight: r weighs how much
+height: r is how tall
+ntwkhard: past week not work hard enough
+misswork: miss work for health past 30 days
+lifenow: r's rating of life overall now from 0-10
+lifein5: r's rating of life overall in five years from 0-10
+disrspct: r is treated with less courtesy or respect than others
+poorserv: r recieves poorer service in restaurants or stores
+notsmart: people act as if they think r is not smart
+afraidof: people act as if they are afraid of r
+threaten: r is threatened or harassed
+abmoral: r has a moral opposition to abortion
+abhelp1: r would help with arrangements for abortion
+abhelp2: r would help with paying for abortion
+abhelp3: r would help with paying for abortion-related other costs
+abhelp4: r would help with emotional support for abortion
+workfor1: r work for whom
+ownstock: r has stock in r's company
+stockops: r hold any stock options of r's company
+extrapay: eligible for performance based pay
+compperf: size of perf based pay depend on profits
+deptperf: size of perf based pay depend on workgroup
+indperf: size of perf based pay depend on individual
+extrayr: year of the most recent perf based payments
+numemps: number of employee for the self-employed
+wrkslffam: does r work in family business or farm
+nextgen: science & tech. give more opportunities to next generation
+toofast: science makes our way of life change too fast
+advfront: sci rsch is necessary and should be supported by federal govt
+scientgo: scientists work for good of humanity
+scienthe: scientists help solve prob
+scientbe: scientists want to make life better for avg person
+buyvalue: percent of company stock r bought from own money
+compwage: annual wages in previous year were higher than same jobs in other companies
+empinput: r involved in any task force for decision-making
+slfmangd: r involved in a self-managed team
+emptrain: received formal training from employer
+wealth: total wealth of respondent
+esop: r is member of esop
+defpensn: r has defined benefit pension plan
+ratetone: r's facial coloring by interviewer
+posslq: does r have marital partner
+posslqy: relationship status and cohabitation or not
+marcohab: cohabitation status
+healthissp: merged healthissp_d and healthissp_e
+endsmeet: how difficult or easy is it for r's household to make ends meet
+goodlife: standard of living of r will improve
+famsuffr: family life suffers if mom works f-t
+homekid: most women really want a home and kids
+housewrk: being housewife as fulfilling as paid work
+wrkbaby: shld woman with preschooler work?
+wrksch: shld woman work after youngest in school?
+marlegit: those wanting kids should get married
+marmakid: single ma can raise kids well as couple
+marpakid: single pa can raise kids well as couple
+marhomo: homosexuals should have right to marry
+numkids: what is ideal number of kids for family
+kidnofre: kids interfere with parents' freedom
+hubbywk1: men should earn money women keep house
+meovrwrk: men hurt family when focus on work too much
+cohabok: living together as an acceptable option
+laundry1: who in household does laundry
+caresik1: who in household cares for sick in family
+shop1: who in household shops for groceries
+cooking1: who in household prepares the meals
+rhhwork: how many hours a week does r spend on hh work
+sphhwork: how many hours a week does spouse on hh wrk
+happy7: how happy r is
+ssfchild: same sex female couple raise child as well as male-female couple
+ssmchild: same sex male couple raise child as well as male-female couple
+kidsocst: having children increases social standing in society
+paidlv: paid leave for childcare
+paidlvdv: mother or father paid leave
+famwkbst: best way to org family work life with under school age child
+famwklst: wor'st way to org family work life with under school age child
+careprov: who should provide childcare for under school age child
+carecost: who should pay for costs of care for under school age child
+eldhelp: who should provide help for elderly
+eldcost: who should pay for help for elderly
+hhclean1: who does household cleaning
+tiredhm1: how often too tired to do housework
+jobvsfa1: how often jobtakes too much time to fulfill family resp
+tiredwk1: how often too tired from housework to do job well
+famvswk1: how often difficult to conc at work because family resp
+rfamlook: how many hours a week r spends looking after family
+spfalook: hours spouse spends looking after family members
+stress: how often does r find work stressful
+supervis: does r supervise others at work in main job
+localnum: number of employees: r's work site
+hapunhap: happy or unhappy with life today
+madenkid: if protestant, mothers denomination
+relactiv: how often does r take part in relig activities
+immcrime: immigrants increase crime rates
+immjobs: immigrants take jobs away
+letin1a: number of immigrants nowadays should be
+partners: how many sex partner's r had in last year
+matesex: was 1 of r's partner's spouse or regular
+frndsex: r had sex with friend last year
+acqntsex: r had sex with acquaintance last year
+pikupsex: r had sex with casual date last year
+paidsex: r had sex for pay last year
+othersex: r had sex with some other last year
+sexsex: sex of sex partner's in last year
+sexfreq: frequency of sex during last year
+numwomen: number of female sex partner's since 18
+nummen: number of male sex partner's since 18
+partnrs5: how many sex partner's r had in last 5 years
+sexsex5: sex of sex partner's last five years
+evpaidsx: ever have sex paid for or being paid since 18
+evstray: have sex other than spouse while married
+condom: used condom last time
+relatsex: relation to last sex partner
+evidu: r ever inject drugs
+idu30: r inject drugs in past 30 days
+evcrack: r ever use crack cocaine
+crack30: r last use crack cocaine
+hivtest: have you ever been tested for hiv
+hivtest1: in what month and year was your last hiv test
+hivtest2: where did you have your last hiv test
+sexornt: sexual orientation
+realinc: family income in constant $
+realrinc: r's income in constant $
+coninc: family income in constant dollars
+conrinc: respondent income in constant dollars
+ethnic: country of family origin
+eth1: 1st mentioned country of origin
+eth2: 2nd mentioned country of origin
+eth3: 3rd mentioned country of origin
+hispanic: hispanic specified
+racecen1: what is r's race 1st mention
+racecen2: what is r's race 2nd mention
+racecen3: what is r's race 3rd mention
+uscitzn: is r us citizen
+fucitzn: is r planning/appling for us citizenship or not
+yearsusa: lived in u.s., years:
+mnthsusa: lived in u.s., if less than one year 		months:
+vetyears: years in armed forces
+dwelling: type of structure
+dwelown: does r own or rent home?
+dwelown16: did rs family own or rent home when r was age 16
+worda: word a
+wordb: word b
+wordc: word c
+wordd: word d
+worde: word e
+wordf: word f
+wordg: word g
+wordh: word h
+wordi: word i
+wordj: word j
+wordsum: number words correct in vocabulary test
+relate1: relationship of 1st person to household head
+gender1: gender of 1st person
+old1: age of 1st person
+mar1: marital status of 1st person
+away1: is 1st person staying somewhere else now?
+where1: where is 1st person staying?
+relate2: relationship of 2nd person to household head
+gender2: gender of 2nd person
+old2: age of 2nd person
+mar2: marital status of 2nd person
+away2: is 2nd person staying somewhere else now?
+where2: where is 2nd person staying?
+relate3: relationship of 3rd person to household head
+gender3: gender of 3rd person
+old3: age of 3rd person
+mar3: marital status of 3rd person
+away3: is 3rd person staying somewhere else now?
+where3: where is 3rd person staying?
+relate4: relationship of 4th person to household head
+gender4: gender of 4th person
+old4: age of 4th person
+mar4: marital status of 4th person
+away4: is 4th person staying somewhere else now?
+where4: where is 4th person staying?
+relate5: relationship of 5th person to household head
+gender5: gender of 5th person
+old5: age of 5th person
+mar5: marital status of 5th person
+away5: is 5th person staying somewhere else now?
+where5: where is 5th person staying?
+relate6: relationship of 6th person to household head
+gender6: gender of 6th person
+old6: age of 6th person
+mar6: marital status of 6th person
+away6: is 6th person staying somewhere else now?
+where6: where is 6th person staying?
+relate7: relationship of 7th person to household head
+gender7: gender of 7th person
+old7: age of 7th person
+mar7: marital status of 7th person
+away7: is 7th person staying somewhere else now?
+where7: where is 7th person staying?
+relate8: relationship of 8th person to household head
+gender8: gender of 8th person
+old8: age of 8th person
+mar8: marital status of 8th person
+away8: is 8th person staying somewhere else now?
+where8: where is 8th person staying?
+relate9: relationship of 9th person to household head
+gender9: gender of 9th person
+old9: age of 9th person
+mar9: marital status of 9th person
+away9: is 9th person staying somewhere else now?
+where9: where is 9th person staying?
+relate10: relationship of 10th person to household head
+gender10: gender of 10th person
+old10: age of 1oth person
+mar10: marital status of 10th person
+away10: is 10th person staying somewhere else now?
+where10: where is 1oth person staying?
+relate11: relation of 11th person (visitor) to head
+gender11: gender of 11th person (visitor)
+old11: age of 11th person (visitor)
+mar11: marital status of 11th person (visitor)
+away11: is 11th person (visitor) staying elsewhere now?
+where11: where is 11th person (visitor) staying?
+relate12: relation of 12th person (visitor) to head
+gender12: gender of 12th person (visitor)
+old12: age of 12th person (visitor)
+mar12: marital status of 12th person (visitor)
+away12: is 12th person (visitor) staying elsewhere now?
+where12: where is 12th person (visitor) staying?
+relate13: relation of 13th person (visitor) to head
+gender13: gender of 13th person (visitor)
+old13: age of 13th person (visitor)
+mar13: marital status of 13th person (visitor)
+away13: is 13th person (visitor) staying elsewhere now?
+where13: where is 13th person (visitor) staying?
+relate14: relation of 14th person (visitor) to head
+away14: is 14th person (visitor) staying elsewhere now?
+where14: where is 14th person (visitor) staying?
+relhhd1: relation of 1st person to household head
+relhhd2: relation of 2nd person to household head
+relhhd3: relation of 3rd person to household head
+relhhd4: relation of 4th person to household head
+relhhd5: relation of 5th person to household head
+relhhd6: relation of 6th person to household head
+relhhd7: relation of 7th person to household head
+relhhd8: relation of 8th person to household head
+relhhd9: relation of 9th person to household head
+relhhd10: relation of 1oth person to household head
+relhhd11: relation of 11th person (visitor) to head
+relhhd12: relation of 12th person (visitor) to head
+relhhd13: relation of 13th person (visitor) to head
+relhhd14: relation of 14th person (visitor) to head
+hhrace: race of household
+respnum: number in family of r
+hhtype: household type
+hhtype1: household type (condensed)
+famgen: number of family generations in household
+rplace: r's relationship to household head
+rvisitor: is r a visitor?
+visitors: number of visitor's in household
+relhh1: relationship of person 1 to head of household
+relhh2: relationship of person 2 to head of household
+relhh3: relationship of person 3 to head of household
+relhh4: relationship of person 4 to head of household
+relhh5: relationship of person 5 to head of household
+relhh6: relationship of person 6 to head of household
+relhh7: relationship of person 7 to head of household
+relhh8: relationship of person 8 to head of household
+relhh9: relationship of person 9 to head of household
+relhh10: relationship of person 10 to head of household
+relhh11: relationship of person 11 to head of household
+relhh12: relationship of person 12 to head of household
+relhh13: relationship of person 13 to head of household
+relhh14: relationship of person 14 to head of household
+relsp1: relationship of person 1 to spouse of househol
+relsp2: relationship of person 2 to spouse of househol
+relsp3: relationship of person 3 to spouse of househol
+relsp4: relationship of person 4 to spouse of househol
+relsp5: relationship of person 5 to spouse of househol
+relsp6: relationship of person 6 to spouse of househol
+relsp7: relationship of person 7 to spouse of househol
+relsp8: relationship of person 8 to spouse of househol
+relsp9: relationship of person 9 to spouse of househol
+relsp10: relationship of person 10 to spouse of househo
+relsp11: relationship of person 11 to spouse of househo
+relsp12: relationship of person 12 to spouse of househo
+relsp13: relationship of person 13 to spouse of househo
+relsp14: relationship of person 14 to spouse of househo
+dateintv: date of interview
+sei10: r's socioeconomic index (2010)
+sei10educ: percentage of some college educ in occ10 based on acs 2010
+sei10inc: percentage of $45k+ earners in occ10 based on acs 2010
+pasei10: r's father's socioeconomic index (2010)
+pasei10educ: percentage of some college educ in paocc10 based on acs 2010
+pasei10inc: percentage of $45k+ earners in paocc10 based on acs 2010
+masei10: r's mother's socioeconomic index (2010)
+masei10educ: percentage of some college educ in maocc10 based on acs 2010
+masei10inc: percentage of $45k+ earners in maocc10 based on acs 2010
+spsei10: r's spouse's socioeconomic index (2010)
+spsei10educ: percentage of some college educ in spocc10 based on acs 2010
+spsei10inc: percentage of $45k+ earners in spocc10 based on acs 2010
+cosei10: partner's socioeconomic index (2010)
+cosei10educ: percentage of some college educ in coocc10 based on acs 2010
+cosei10inc: percentage of $45k+ earners in coocc10 based on acs 2010
+copres10: partner's occupational prestige score (2010)
+copres105plus: partner's occupational prestige score using threshold method (2010)
+uswary: expect u.s. in world war in 10 years
+cohort: year of birth
+marcohrt: year of first marriage
+zodiac: respondents astrological sign
+inthisp: is interviewer spanish, hispanic or latino
+intrace1: interviewer s race1
+intrace2: interviewer s race2
+intrace3: interviewer s race3
+whoelse1: presence of others: children under six
+whoelse2: presence of others: older children
+whoelse3: presence of others: spouse partner
+whoelse4: presence of others: other relatives
+whoelse5: presence of others: other adults
+whoelse6: presence of others: no one
+intid: interviewer id
+feeused: fee given to get case
+feelevel: amount of fees paid
+lngthinv: how long was interview
+intethn: race of interviewer
+mode: interview done in-person or over the phone
+consent: participation/recording consent
+adminconsent: consent to possible data linkage
+letdie1y: allow incurable patients to die (form 2)
+ballot: ballot used for interview
+version: version of questionnaire
+issp: filter for issp cases
+formwt: weight deal with experimental randomization
+sampcode: sampling error code
+sample: sampling frame and method
+oversamp: weights for black oversamples
+phase: subsampling: two-phase design.
+spanself: if this interview had only been available in english, would you...
+spanint: if no spanish, r could have been interviewed in english
+spaneng: interviews conducted in spanish or english
+hlthstrt: would you say the respondent? health in general is excellent, good, fair, or poo
+huadd: housing unit (hu) at address?
+huaddwhy: why there is no hu at this address
+dwellpre: type of structure in which the respondent lives
+kidsinhh: does interviewer believe that there are children under the age of 15 present at 
+respond: estimate of the probability that this household will respond to the survey
+incuspop: estimated income status of housing unit
+neisafe: how safe interviewer thinks neighborhood is
+rlooks: r physical attractiveness rating
+rgroomed: r grooming rating
+rhlthend: r health rating
+vstrat: variance stratum
+vpsu: variance primary sampling unit
+kish: 
+famdif16y: which of the following best describes your situation?
+pawrkslf2: at this job, was [dadfill] an employee, self-employed without employees, or self
+mawrkslf2: mother employee, self-employed without employees, or self-employed with employee
+ethworld1: from what part of the world did your ancestors come?  europe
+ethworld2: from what part of the world did your ancestors come?  africa
+ethworld3: from what part of the world did your ancestors come?  asia
+ethworld4: from what part of the world did your ancestors come?  middle east
+ethworld5: from what part of the world did your ancestors come?  south america
+ethworld6: from what part of the world did your ancestors come?  central america
+ethworld7: from what part of the world did your ancestors come?  north america
+ethworld8: from what part of the world did your ancestors come?  caribbean
+ethworld9: from what part of the world did your ancestors come?  oceania
+ethregion1: from what country or countries did your ancestors come?  austria
+ethregion2: from what country or countries did your ancestors come?  belgium
+ethregion3: from what country or countries did your ancestors come?  czechoslovakia
+ethregion4: from what country or countries did your ancestors come?  denmark
+ethregion5: from what country or countries did your ancestors come?  england and wales
+ethregion6: from what country or countries did your ancestors come?  finland
+ethregion7: from what country or countries did your ancestors come?  france
+ethregion8: from what country or countries did your ancestors come?  germany
+ethregion9: from what country or countries did your ancestors come?  greece
+ethregion10: from what country or countries did your ancestors come?  hungary
+ethregion11: from what country or countries did your ancestors come?  ireland
+ethregion12: from what country or countries did your ancestors come?  italy
+ethregion13: from what country or countries did your ancestors come?  lithuania
+ethregion14: from what country or countries did your ancestors come?  netherlands (dutch/holl
+ethregion15: from what country or countries did your ancestors come?  norway
+ethregion16: from what country or countries did your ancestors come?  poland
+ethregion17: from what country or countries did your ancestors come?  portugal
+ethregion18: from what country or countries did your ancestors come?  romania
+ethregion19: from what country or countries did your ancestors come?  russia (ussr)
+ethregion20: from what country or countries did your ancestors come?  scotland
+ethregion21: from what country or countries did your ancestors come?  spain
+ethregion22: from what country or countries did your ancestors come?  sweden
+ethregion23: from what country or countries did your ancestors come?  switzerland
+ethregion24: from what country or countries did your ancestors come?  turkey
+ethregion25: from what country or countries did your ancestors come?  yugoslavia
+ethregion26: from what country or countries did your ancestors come?  other europe
+ethregion27: from what country or countries did your ancestors come?  algeria
+ethregion28: from what country or countries did your ancestors come?  democratic republic of 
+ethregion29: from what country or countries did your ancestors come?  egypt
+ethregion30: from what country or countries did your ancestors come?  ethiopia
+ethregion31: from what country or countries did your ancestors come?  kenya
+ethregion32: from what country or countries did your ancestors come?  nigeria
+ethregion33: from what country or countries did your ancestors come?  south africa
+ethregion34: from what country or countries did your ancestors come?  sudan
+ethregion35: from what country or countries did your ancestors come?  tanzania
+ethregion36: from what country or countries did your ancestors come?  uganda
+ethregion37: from what country or countries did your ancestors come?  other africa
+ethregion38: from what country or countries did your ancestors come?  bangladesh
+ethregion39: from what country or countries did your ancestors come?  china
+ethregion40: from what country or countries did your ancestors come?  india
+ethregion41: from what country or countries did your ancestors come?  indonesia
+ethregion42: from what country or countries did your ancestors come?  japan
+ethregion43: from what country or countries did your ancestors come?  pakistan
+ethregion44: from what country or countries did your ancestors come?  philippines
+ethregion45: from what country or countries did your ancestors come?  south korea
+ethregion46: from what country or countries did your ancestors come?  thailand
+ethregion47: from what country or countries did your ancestors come?  vietnam
+ethregion48: from what country or countries did your ancestors come?  other asia
+ethregion49: from what country or countries did your ancestors come?  iran
+ethregion50: from what country or countries did your ancestors come?  iraq
+ethregion51: from what country or countries did your ancestors come?  israel
+ethregion52: from what country or countries did your ancestors come?  jordan
+ethregion53: from what country or countries did your ancestors come?  saudi arabia
+ethregion54: from what country or countries did your ancestors come?  syria
+ethregion55: from what country or countries did your ancestors come?  united arab emirates
+ethregion56: from what country or countries did your ancestors come?  yemen
+ethregion57: from what country or countries did your ancestors come?  other middle east
+ethregion58: from what country or countries did your ancestors come?  argentina
+ethregion59: from what country or countries did your ancestors come?  bolivia
+ethregion60: from what country or countries did your ancestors come?  brazil
+ethregion61: from what country or countries did your ancestors come?  chile
+ethregion62: from what country or countries did your ancestors come?  colombia
+ethregion63: from what country or countries did your ancestors come?  ecuador
+ethregion64: from what country or countries did your ancestors come?  french guiana
+ethregion65: from what country or countries did your ancestors come?  guyana
+ethregion66: from what country or countries did your ancestors come?  paraguay
+ethregion67: from what country or countries did your ancestors come?  peru
+ethregion68: from what country or countries did your ancestors come?  suriname
+ethregion69: from what country or countries did your ancestors come?  uruguay
+ethregion70: from what country or countries did your ancestors come?  venezuela
+ethregion71: from what country or countries did your ancestors come?  other south america
+ethregion72: from what country or countries did your ancestors come?  belize
+ethregion73: from what country or countries did your ancestors come?  costa rica
+ethregion74: from what country or countries did your ancestors come?  el salvador
+ethregion75: from what country or countries did your ancestors come?  guatemala
+ethregion76: from what country or countries did your ancestors come?  honduras
+ethregion77: from what country or countries did your ancestors come?  mexico
+ethregion78: from what country or countries did your ancestors come?  nicaragua
+ethregion79: from what country or countries did your ancestors come?  panama
+ethregion80: from what country or countries did your ancestors come?  other central america
+ethregion81: from what country or countries did your ancestors come?  american indian
+ethregion82: from what country or countries did your ancestors come?  canada
+ethregion83: from what country or countries did your ancestors come?  canada (french)
+ethregion84: from what country or countries did your ancestors come?  puerto rico
+ethregion85: from what country or countries did your ancestors come?  other north america
+ethregion86: from what country or countries did your ancestors come?  cuba
+ethregion87: from what country or countries did your ancestors come?  haiti
+ethregion88: from what country or countries did your ancestors come?  dominican republic
+ethregion89: from what country or countries did your ancestors come?  jamaica
+ethregion90: from what country or countries did your ancestors come?  other caribbean
+ethregion91: from what country or countries did your ancestors come?  australia
+ethregion92: from what country or countries did your ancestors come?  papua new guinea
+ethregion93: from what country or countries did your ancestors come?  new zealand
+ethregion94: from what country or countries did your ancestors come?  samoa
+ethregion96: from what country or countries did your ancestors come?  other oceania
+wrkgovt1: govt employee
+wrkgovt2: private employee
+spkathy: allow anti-religionist to speak y
+libathy: allow anti-religionist to teach y
+spkracy: allow racist to speak y
+libracy: allow racists book in library y
+spkcomy: allow communist to speak y
+colcomy: should communist teacher be fired y
+libcomy: allow communists book in library y
+spkmslmy: allow muslim clergymen preaching hatred of the us y
+libmslmy: allow anti-american muslim clergymen's books in library y
+polhitoky: ever approve of police striking citizen y
+polabusey: citizen said vulgar or obscene things y
+polattaky: citizen attacking policeman with fists y
+raceacs1: white
+raceacs2: black
+raceacs3: american indian or alaska native
+raceacs4: asian indian
+raceacs5: chinese
+raceacs6: filipino
+raceacs7: japanese
+raceacs8: korean
+raceacs9: vietnamese
+raceacs10: other asian
+raceacs11: native hawaiian
+raceacs12: guamanian or chamorro
+raceacs13: samoan
+raceacs14: other pacific islander
+raceacs15: some other race
+raceacs16: hispanic
+abdefectg: strong chance of serious defect (grid on web)
+abnomoreg: married--wants no more children (grid on web)
+abhlthg: woman's health seriously endangered (grid on web)
+abpoorg: low income--cant afford more children (grid on web)
+abrapeg: pregnant as result of rape (grid on web)
+absingleg: not married (grid on web)
+suicide1g: suicide if incurable disease
+suicide2g: suicide if bankrupt
+suicide3g: suicide if dishonored family
+suicide4g: suicide if tired of living
+maborn: was r's mother born in this country?
+paborn: was r's father born in this country?
+sexbirth1: r's sex assigned at birth (2021)
+sexnow1: r's sex now (2021)
+hivafraid: afraid to be around a person with hiv
+hivimmrl: people with hiv have participated in immoral activities
+hivdscrm: there is a lot of discrimination against people with hiv
+ptnrornt: recent partner's sexual orientation
+ptnrsxbrth: recent partner's sex at birth
+ptnrsxnow: recent partner's sex now
+conpharvacy: confidence in pharmaceutical companies y
+confedvacy: confidence in the federal government y
+wtssps: person post-stratification weight
+wtssnrps: person post-stratification weight, nonrespondents adjusted
+uswaryv: expect us in world war in next 10 years (volunteered response on web)
+prayerv: bible prayer in public schools (with volunteered response on web)
+courtsv: courts dealing with criminals (with volunteered response on web)
+discaffwv: a woman won't get a job or promotion (with volunteered response on web)
+racopenv: vote on open housing law (with volunteered response on web)
+getaheadv: opinion of how people get ahead (with volunteered response on web)
+divlawv: divorce laws (with volunteered response on web)
+helpfulv: people helpful or looking out for selves (with volunteered response on web)
+fairv: people fair or try to take advantage (with volunteered resposne on web)
+trustv: can people be trusted (with volunteered response on web)
+agedv: should aged live with their children (with volunteered response on web)
+grassv: should marijuana be made legal (with volunteered response on web)
+relitenv: strength of affiliation (with volunteered response on web)
+biblev: feelings about the bible (with volunteered response on web)
+postlifev: belief in life after death (with volunteered response on web)
+kidssolv: r's kids living standard compared to r (with volunteered response on web)
+uscitznv: is r us citizen (with volunteered response on web)
+fucitznv: is r planning/appling for us citizenship or not (with volunteered response on we
+fepolv: women not suited for politics (with volunteered response on web)
+uswarynv: expect us in world war in next 10 years (no volunteered response on web)
+prayernv: bible prayer in public schools (no volunteered response on web)
+courtsnv: courts dealing with criminals (no volunteered response on web)
+discaffwnv: a woman won't get a job or promotion (no volunteered response on web)
+racopennv: vote on open housing law (no volunteered response on web)
+getaheadnv: opinion of how people get ahead (no volunteered response on web)
+divlawnv: divorce laws (no volunteered response on web)
+helpfulnv: people helpful or looking out for selves (no volunteered response on web)
+fairnv: people fair or try to take advantage (no volunteered response on web)
+trustnv: can people be trusted (no volunteered response on web)
+agednv: should aged live with their children (no volunteered response on web)
+grassnv: should marijuana be made legal (no volunteered response on web)
+relitennv: strength of affiliation (no volunteered response on web)
+biblenv: feelings about the bible (no volunteered response on web)
+postlifenv: belief in life after death (no volunteered response on web)
+kidssolnv: r's kids living standard compared to r (no volunteered response on web)
+uscitznnv: is r us citizen (no volunteered response on web)
+fucitznnv: is r planning/appling for us citizenship or not (no volunteered response on web)
+fepolnv: women not suited for politics (no volunteered response on web)
+abanyg: abortion if woman wants for any reason (grid on web)
+fileversion: gss data file version
+childsinhh: total children in hh (household composition version)
+adultsinhh: total adults in hh (household composition version)
+racerank1: first race selected
+racerank2: second race selected
+racerank3: third race selected
+racopeny: vote on open housing law - gender neutral version
+adoptus: immigrants living in us should adopt us culture
+immfate: fate of illegal immigrants
+vote20: remember if voted in 2020 election
+pres20: voted trump or biden
+if20who: who you would have voted for in 2020
+wordk: word k
+wordl: word l
+wordn: word n
+fechld2: mother working doesn't hurt children - issp version
+fepresch2: preschool kids suffer if mother works  - issp version
+rspgndr: women vs men responsibility for the home
+prntlk: mother vs father care for child
+prntfnce: mother vs father provide financially
+prntcre: mother vs father daily child care
+prntply: mother vs father play with child
+prntbhav: mother vs father teach child to behave
+prntadvs: mother vs father advise child
+prntmdl: mother vs father role model
+orginc: financial distribution in household
+plan1: who in household plans social activities
+sharehhw: who in household does housework
+clsrltv: who are close relatives
+rsprltv1: offer sibling place to live
+rsprltv2: offer parent place to live
+eldfnce: grandparents should help grandchildren financially
+rlyrltv: rely on friends or close relatives
+frndfam: friends or family more important
+cabgndr: man vs woman cabinet position
+univgndr: man vs woman head of university
+execgndr: man vs woman senior executive
+yrfnce: financial situation compared to last year
+nmbrkids: number of children
+conhlth: confidence in health care system in us
+hlthbtr: higher incomes afford better health care
+hlthmore: people use health care services more than necessary
+hlthgov: govt should provide only limited health care
+hlthinf: health care system in us inefficient
+hlthtax: willing to pay higher taxes to imp health care for all
+hlthctzn: access to public funded health care if not citizen
+hlthdmg: access to public funded health care if damage own health
+hlthacc1: rich vs poor access to healthcare
+hlthacc2: old vs young access to healthcare
+hlthacc3: men vs women access to healthcare
+hlthacc4: citizen vs noncitizen access to healthcare
+hlthbeh: suffer health prob from behavior
+hlthenv: suffer health prob from environ where work or live
+hlthgene: suffer health prob because of genes
+hlthpoor: suffer health prob because poor
+altmed: alt med provides better solutions
+doctrst: docs can be trusted
+docskls: medical skills of docs not as good as should be
+docearn: docs care more about earnings than patients
+hlthweb: look up health information online in past 12 months
+hlthwblif: looked up online - healthy lifestyle
+hlthwbanx: looked up online - anxiety or stress
+hlthwbvax: looked up online - vaccines
+webhltbeh: infomration online affected health positively
+webdocexp: information online helped me understand a doctor
+websympt: internet is useful to decide if symptoms are serious
+webdradv: internet is useful to decide if doctors give good advice
+webrely: hard to distinguish reliable and unreliable info online
+vaxdoharm: vaccines do more harm than good
+immunbetr: immunity should be developed by getting ill
+hlthprb: difficulties with work or housework due to health prob
+hlthpain: body aches or pains in last 4 weeks
+hlthdep: felt unhappy or depressed in last 4 weeks
+hlthconf: lost confidence in self in last 4 weeks
+hlthnot: felt couldn't overcome probs in last 4 weeks
+docvst: how often visit doctor
+docalt: how often visit alt health care practitioner
+medpay: couldn't get care because couldn't pay
+medcommt: couldn't get care because work/oth commitments
+medwtlst: couldn't get care because waitlist too long
+medbest: how likely to get best treatment avail in us
+hlthsat: how satisfied r with health care system in us
+docsat1: how satisfied r was with last doctor visit
+altsat: how satisfied r with alt health treatment
+smokeday: how many cigs a day
+drinkday1: how often r drinks 4+ drinks in one day
+physact: how often r does physical activity for 20 min a day
+frtvegs: how often r eats fresh fruit/veggies
+disblty: does r have disability
+weight_issp: respondent weight
+shutbus: govt should shut down business during pandemic
+stayhome: govt should make people stay at home
+mobilsurv: govt should track sick people
+reqmasks: govt should require masks
+bangather: govt should ban gatherings
+stockval1: estimate of total value of stocks if sold today
+stockyr: granted shares of stock in past year
+stockyrval: value of stock gratned in past year
+stockoptyr: granted stock options in past year
+stoptyramt: value of options granted in past year
+extr2021: extra pay in 2021
+extraval1: estimate of bonus payments last year
+yearval1: estimate of dollar value of payments in that year
+numorg1: estimate of total people in r's business or organization
+perfrt: performance rating last year
+chngtime: how often change start and end times
+wrkmeangfl: i find my work meaningful
+strmgtsup: mangement supports stress prevention
+psysamephys: management supports psychological health
+allorglevel: all levels of org are involved in stress prevention
+feelnerv: how often felt nervious in past 2 weeks
+worry: how often could not control worrying in past 2 weeks
+feeldown: how often felt down in past 2 weeks
+nointerest: how often felt no interest in doing things in past 2 weeks
+svyenjoy: enjoy taking surveys
+svyid1: willingness to use video chat
+svyid2: willingnes for in-person survey
+baselinestatus: baseline sample indicator for gss 2022
+amerstatus: amerispeak sample indicator for gss 2022
+yrlvmus: attend live music or theater in past 12 months
+yrartxbt: attend art exhibit in past 12 months
+yrmovie: see movie in past 12 months
+artsout: outdoor art activity in past 12 months
+yrcreat: create art in past 12 months
+yrrdg: read fiction or poetry in past 12 months
+yrtour: online art tour in past 12 months
+yrstmus: livestreamed music or theater in past 12 months
+yrarmus: archived livestreamed music or theater in past 12 months
+yrstpo: livestreamed reading event in past 12 months
+yrarpo: archived livestreamed reading event in past 12 months
+yrclass: online class in past 12 months
+yrpod: listen to art podcasts in past 12 months
+cvdlvmus: change in in-person events since first year of covid
+cvdart: change in in-person art since first year of covid
+cvdmov: change in in-person movies since first year of covid
+cvdcreat: change in creating art since first year of covid
+cvdrdg: change in reading since first year of covid
+cvdtour: change in online tours since first year of covid
+cvdstmus: change in livesteamed music or theater since first year of covid
+cvdarmus: change in archived livestreamed music or theater since first year of covid
+cvdstpo: change in livestreamed reading events since first year of covid
+cvdarpo: change in archived livestreamed reading events since first year of covid
+cvdclass: change in online classes since first year of covid
+cvdpod: change in art podcasts since first year of covid
+neastatus: nea follow-on status
+wrkwayup_next: blacks overcome prejudice without favors - follow-on version
+blkmblty: generations of slavery make change hard for black people
+blkdsrv: black people get less than they deserve
+blktry: black people do not try hard enough
+brv5: death of someone close in past 5 years
+brv5sp: death of spouse or partner
+brv5par: death of parent
+brv5grand: death of grandparent
+brv5child: death of child
+brv5sib: death of sibling
+brv5oth: death of someone else
+brv5spnum: number of spouse deaths
+brv5partnum: number of partner deaths
+brv5dadnum: number of father deaths
+brv5momnum: number of mother deaths
+brv5filnum: number of father in law deaths
+brv5milnum: number of mother in law deaths
+brv5gmanum: number of grandmother deaths
+brv5gpanum: number of grandfather deaths
+brv5sonnum: number of son deaths
+brv5daunum: number of daughter deaths
+brv5chinum: number of stepchild deaths
+brv5bronum: number of brother deaths
+brv5sisnum: number of sister deaths
+brv5silnum: number of brother-in-law or sister-in-law deaths
+brv5cuznum: number of cousin deaths
+brv5frndnum: number of friend deaths
+brv5cowknum: number of coworker deaths
+brv5othnum: number of other deaths
+brv16: death of someone close before age 16
+brv16sp: death of spouse or partner
+brv16par: death of parent
+brv16sib: death of sibling
+brv16grand: death of grandparent
+brv16oth: death of someone else
+brv16spnum: number of spouse deaths
+brv16partnum: number of partner deaths
+brv16dadnum: number of father deaths
+brv16momnum: number of mother deaths
+brv16filnum: number of father in law deaths
+brv16milnum: number of mother in law deaths
+brv16gmanum: number of grandmother deaths
+brv16gpanum: number of grandfather deaths
+brv16bronum: number of brother deaths
+brv16sisnum: number of sister deaths
+brv16silnum: number of brother-in-law or sister-in-law deaths
+brv16cuznum: number of cousin deaths
+brv16frndnum: number of friend deaths
+brv16othnum: number of other deaths
+gestate: abortion legal past 4.5 months
+abgender: abortion legal for gender selection
+abbelief: pro-choice vs pro-life
+vaxhstncy: parents choose not to vaccinate their children
+vaxkids: vaccines are important for children
+vaxsafe: vaccines are safe
+fluvax: flu vaccine in past 12 months
+covid12: covid vaccine ever
+covemply: change in employment over covid pandemic
+pandinc: change in household income over covid pandemic
+pandmet: change in socialization over covid pandemic
+biokids: number of biological children
+malekids: number of male children
+firstkidsex: sex of first child
+nonbinkids: first child nonbinary
+femself: how feminine r sees self
+mascself: how masculine r sees self
+nextstatus: gss next follow-on status
+worksick: how many times in the last 90 days did r work while ill
+fund_next: fundamentalist - follow-on version
+hompop_exp: total people in hh (experimental version)
+modesequence: initial mode of contact for respondent
+rheight: respondent height
+instype01: first type of insurance mentioned
+instype02: second type of insurance mentioned
+instype03: third type of insurance mentioned
+instype04: fourth type of insurance mentioned
+totalincentive: total incentive for case, including pre- and post- incentive for baseline and an
+babies_exp: kids 0-6 in hh(experimental version)
+preteen_exp: kids 7-12 in hh(experimental version)
+teens_exp: kids 13-17 in hh(experimental version)
+adults_exp: adults 18+ in hh(experimental version)
+childs_exp: total children under 18 in hh (experimental verison)
+respnumh: number in family of r (hef)
+hefinfo1: number of household roster informant
+famgen_exp: number of family generations in household (experimental version)
+hhtype1_exp: household type (condensed) (experimental version)
+batch: sample batch
+subsamprate: subsampling rate corresponding to two-phase design
+wtssps_nea: poststratification weight for analyzing nea follow-on
+wtssnrps_nea: poststratification and nonresponse weight for analyzing nea follow-on
+wtssps_next: poststratification weight for analyzing gss next follow-on
+wtssnrps_next: poststratification and nonresponse weight for analyzing gss next follow-on
+wtssps_as: poststratification weight for analyzing gss with amerispeak oversample
+wtssnrps_as: poststratification and nonresponse weight for analyzing gss with amerispeak over

@@ -1,0 +1,87 @@
+Line 1: P(too harshly)=0.124, P(not harshly enough)=0.670, P(about right (phone mode only: volunteered))=0.205
+Line 2: P(no)=0.284, P(yes)=0.716
+Line 3: P(0)=0.005, P(1)=0.736, P(2)=0.220, P(3)=0.001, P(4)=0.000, P(5)=0.000, P(6)=0.000, P(7)=0.007, P(eight or more)=0.030
+Line 4: P(no)=0.723, P(yes)=0.277
+Line 5: P(did not vote)=0.252, P(ineligible)=0.017, P(voted)=0.732
+Line 6: P(no)=0.475, P(yes)=0.525
+Line 7: P(married)=0.806, P(not married, cohabitating partner)=0.001, P(not married, missing on cohabitating)=0.001, P(not married, no cohabitating partner)=0.193
+Line 8: P(no)=0.998, P(yes)=0.002
+Line 9: P(no)=0.312, P(yes)=0.688
+Line 10: P(hard work most important)=0.616, P(hard work, luck equally important (phone mode only: volunteered)=0.333, P(luck most important)=0.051
+Line 11: P(0)=0.833, P(1)=0.113, P(2)=0.018, P(3)=0.016, P(4)=0.001, P(5)=0.000, P(6)=0.005, P(7)=0.003, P(8 or more)=0.011
+Line 12: P(1)=0.100, P(10)=0.004, P(11)=0.003, P(14)=0.003, P(2)=0.210, P(3)=0.217, P(31)=0.003, P(4)=0.159, P(5)=0.161, P(6)=0.072, P(7)=0.011, P(8)=0.056
+Line 13: P(favor)=0.572, P(oppose)=0.428
+Line 14: P(no)=0.590, P(yes)=0.410
+Line 15: P(0 household members between 13 to 17)=0.962, P(1)=0.010, P(2)=0.018, P(3)=0.009
+Line 16: P(yes, allowed to speak)=0.638, P(not allowed)=0.362
+Line 17: P(yes)=0.472, P(no)=0.528
+Line 18: P(yes)=0.523, P(no)=0.477
+Line 19: P(married)=0.915, P(widowed)=0.019, P(divorced)=0.034, P(separated)=0.020, P(never married)=0.013
+Line 20: P(0)=0.023, P(1)=0.003, P(10)=0.018, P(11)=0.002, P(12)=0.002, P(13)=0.002, P(14)=0.002, P(15)=0.002, P(16)=0.002, P(17)=0.002, P(18)=0.002, P(19)=0.002, P(2)=0.017, P(20)=0.002, P(21)=0.002, P(22)=0.002, P(25)=0.002, P(26)=0.002, P(3)=0.123, P(32)=0.002, P(33)=0.002, P(36)=0.002, P(4)=0.051, P(5)=0.266, P(6)=0.291, P(7)=0.095, P(8)=0.054, P(9)=0.031
+Line 21: P(no)=0.196, P(yes)=0.804
+Line 22: P(more than 12 months ago but within the past 3 years)=0.212, P(more than 3 years ago)=0.561, P(more than 30 days ago but within the past 12 months)=0.142, P(within the past 30 days)=0.084
+Line 23: P(0)=0.515, P(1)=0.348, P(2)=0.023, P(3)=0.023, P(4)=0.023, P(5)=0.043, P(6)=0.023
+Line 24: P(did not vote)=0.004, P(ineligible)=0.979, P(voted)=0.017
+Line 25: P(strongly disagree)=0.045, P(somewhat disagree)=0.100, P(somewhat agree)=0.327, P(strongly agree)=0.529
+Line 26: P(no)=0.628, P(yes)=0.372
+Line 27: P(gay, lesbian, or homosexual)=0.628, P(bisexual)=0.271, P(heterosexual or straight)=0.101
+Line 28: P(no, no employees)=0.660, P(yes, employees)=0.340
+Line 29: P(r is household member)=0.194, P(r is visitor)=0.806
+Line 30: P(yes)=0.464, P(no)=0.536
+Line 31: P(1 adult in household)=0.176, P(2)=0.515, P(3)=0.157, P(4)=0.079, P(5)=0.045, P(6)=0.027
+Line 32: P(yes)=0.256, P(no)=0.744
+Line 33: P(male)=0.785, P(female)=0.215
+Line 34: P(no, the last time i had sex, it was not with someone i was in an on-going relationship with)=0.287, P(yes, the last time i had sex, it was with someone i was in an on-going relationship with)=0.713
+Line 35: P(agree somewhat)=0.236, P(agree strongly)=0.262, P(disagree somewhat)=0.171, P(disagree strongly)=0.211, P(neither agree nor disagree)=0.121
+Line 36: P(no)=0.588, P(yes)=0.412
+Line 37: P(not easy at all to find similar job)=0.467, P(somewhat easy to find similar job)=0.365, P(very easy to find similar job)=0.168
+Line 38: P(male)=0.110, P(female)=0.890
+Line 39: P(no)=0.725, P(yes)=0.275
+Line 40: P(very happy)=0.424, P(pretty happy)=0.321, P(not too happy)=0.256
+Line 41: P(better)=0.141, P(stayed same)=0.336, P(worse)=0.523
+Line 42: P(exciting)=0.571, P(routine)=0.350, P(dull)=0.079
+Line 43: P(yes, respondent belongs)=0.186, P(yes, spouse or partner belongs)=0.078, P(yes, both belong)=0.060, P(no, neither belong)=0.676
+Line 44: P(agree somewhat)=0.245, P(agree strongly)=0.172, P(disagree somewhat)=0.199, P(disagree strongly)=0.218, P(neither agree nor disagree)=0.167
+Line 45: P(no)=0.949, P(yes)=0.051
+Line 46: P(no)=0.821, P(yes)=0.179
+Line 47: P(no)=0.905, P(yes)=0.095
+Line 48: P(no)=0.787, P(yes)=0.213
+Line 49: P(yes)=0.379, P(no)=0.621
+Line 50: P(no)=0.210, P(yes)=0.790
+Line 51: P(no)=0.875, P(yes)=0.125
+Line 52: P(for-profit company)=0.213, P(government or government agency)=0.645, P(non-profit or not-for-profit organization)=0.142
+Line 53: P(0)=0.826, P(1)=0.047, P(10)=0.005, P(12)=0.003, P(14)=0.002, P(15)=0.003, P(2)=0.014, P(20)=0.002, P(23)=0.002, P(25)=0.009, P(3)=0.007, P(35)=0.002, P(39)=0.002, P(4)=0.006, P(40)=0.002, P(5)=0.015, P(50)=0.002, P(6)=0.004, P(7)=0.003, P(70)=0.001, P(75)=0.001, P(8)=0.004, P(80)=0.001, P(9)=0.003, P(97 or more)=0.033
+Line 54: P(about right)=0.259, P(too high)=0.451, P(too low)=0.289
+Line 55: P(no)=0.724, P(yes)=0.276
+Line 56: P(no active duty)=0.946, P(yes, 2-4 years)=0.011, P(yes, less than 2 years)=0.040, P(yes, more than 4 years)=0.003
+Line 57: P(yes)=0.621, P(no)=0.379
+Line 58: P(yes)=0.269, P(no)=0.731
+Line 59: P(easier)=0.225, P(more difficult)=0.332, P(stay as is (phone mode only: volunteered))=0.443
+Line 60: P(yes)=0.787, P(no)=0.213
+Line 61: P(no)=0.124, P(yes)=0.876
+Line 62: P(no)=0.438, P(yes)=0.562
+Line 63: P(2)=0.050, P(3)=0.098, P(4)=0.149, P(5)=0.200, P(6)=0.242, P(not at all)=0.081, P(very)=0.181
+Line 64: P(no)=0.689, P(yes)=0.311
+Line 65: P(no)=0.700, P(yes)=0.300
+Line 66: P(yes)=0.173, P(no)=0.827
+Line 67: P(no)=0.526, P(yes)=0.474
+Line 68: P(agree)=0.169, P(disagree)=0.236, P(neither agree nor disagree)=0.164, P(strongly agree)=0.177, P(strongly disagree)=0.254
+Line 69: P(yes)=0.464, P(no)=0.536
+Line 70: P(currently applying for u.s. citizenship)=0.185, P(not planning to apply to u.s. citizenship)=0.580, P(planning to apply for u.s. citizenship)=0.235
+Line 71: P(no)=0.865, P(yes)=0.135
+Line 72: P(currently applying for u.s. citizenship)=0.247, P(not eligible to become a u.s. citizen (phone mode only: volunteered))=0.096, P(not planning to apply to u.s. citizenship)=0.363, P(planning to apply for u.s. citizenship)=0.294
+Line 73: P(yes)=0.196, P(no)=0.804
+Line 74: P(no)=0.576, P(yes)=0.424
+Line 75: P(no)=0.865, P(yes)=0.135
+Line 76: P(no religion)=0.183, P(not very strong)=0.184, P(somewhat strong (vol.))=0.241, P(strong)=0.393
+Line 77: P(no)=0.786, P(yes)=0.214
+Line 78: P(no)=0.308, P(yes)=0.692
+Line 79: P(agree)=0.068, P(disagree)=0.296, P(neither agree nor disagree)=0.095, P(strongly agree)=0.060, P(strongly disagree)=0.481
+Line 80: P(no)=0.886, P(yes)=0.114
+Line 81: P(0)=0.012, P(1)=0.067, P(2)=0.202, P(3)=0.258, P(4)=0.206, P(5)=0.149, P(6)=0.065, P(seven or more)=0.041
+Line 82: P(conservative)=0.204, P(none of these)=0.284, P(orthodox)=0.238, P(other)=0.074, P(reform)=0.200
+Line 83: P(0 household members between 6 to 12)=1.000, P(1)=0.000, P(2)=0.000, P(3)=0.000
+Line 84: P(employee)=0.679, P(self-employed with employees)=0.167, P(self-employed without employees)=0.155
+Line 85: P(not very likely)=0.598, P(somewhat likely)=0.275, P(very likely)=0.127
+Line 86: P(strongly favors)=0.091, P(not strongly favors)=0.163, P(not strongly opposes)=0.269, P(strongly opposes)=0.476
+Line 87: P(gay, lesbian, or homosexual)=0.518, P(bisexual)=0.193, P(heterosexual or straight)=0.074, P(i have never had a sexual partner)=0.215

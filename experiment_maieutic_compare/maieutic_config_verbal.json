@@ -1,0 +1,134 @@
+{
+  "model_settings": {
+    "mode": "verbal_small",
+    "allocation": "prealloc",
+    "scenario_generation_temperature": 1.0,
+    "evaluation_temperature": 0.2,
+    "total_scenarios_per_input": 50,
+    "small_model": {
+      "model_name": "LLM-Research/gemma-3-12b-pt",
+      "non_instruction_tuned": true
+    }
+  },
+  "prompts": {
+    "question_answer_to_fact": [
+      ["system", "You are a helpful assistant that converts question-answer pairs into factual statements. Given a question and an answer, create a clear, concise factual statement. Here are some examples that are considered accurate and appropriate:"],
+      ["user", "Question: Which of the following best describes the respondent's sexual orientation? Answer: heterosexual or straight"],
+      ["assistant", "The respondent's sexual orientation is heterosexual."],
+      ["user", "Question: What is the respondent's age? Answer: 25"],
+      ["assistant", "The respondent is 25 years old."],
+      ["user", "Question: Does the respondent have any children? Answer: yes"],
+      ["assistant", "The respondent has children."],
+      ["user", "Question: What is the respondent's highest level of education? Answer: bachelor's degree"],
+      ["assistant", "The respondent's highest level of education is a bachelor's degree."],
+      ["user", "Question: Which of the following best describes the respondent's sexual orientation? Answer: heterosexual or straight. "],
+      ["assistant", "The respondent's sexual orientation is heterosexual."],
+      ["user", "Question: {QUESTION} Answer: {ANSWER}"]
+    ],
+    "initial_b_estimation": [
+      ["system", "You are a helpful assistant that provides probability estimates for the likelihood of events. Always respond with a numerical probability between 0 and 1. Return the value only. Here are some examples predictions that are considered correct and proper:"],
+      ["user", "Event: A random person is a male, given that this person is from New York."],
+      ["assistant", "0.481"],
+      ["user", "Event: it is going to rain tommorrow, given that it will be a day in June and in Miami."],
+      ["assistant", "0.733"],
+      ["user", "Event: The next customer that walks into my breakfast shop is allergic to diary products, given that my breakfast shop is in Baltimore."],
+      ["assistant", "0.020"],
+      ["user", "Event: {B}, given that {A}."]
+    ],
+    "generate_opposite_of_B": [
+      ["system", "You are a helpful assistant that generates the logical negation of events. Given an event description, provide its opposite or negation. Be concise and clear. Here are some examples:"],
+      ["user", "Event: A random person is a male"],
+      ["assistant", "A random person is a female or non-binary"],
+      ["user", "Event: it is going to rain tomorrow"],
+      ["assistant", "it is not going to rain tomorrow"],
+      ["user", "Event: The next customer that walks into my breakfast shop is allergic to dairy products"],
+      ["assistant", "The next customer that walks into my breakfast shop is not allergic to dairy products"],
+      ["user", "Event: The stock market will close higher today"],
+      ["assistant", "The stock market will close lower today"],
+      ["user", "Event: {B}"]
+    ],
+    "scenario_generation": [
+      ["system", "You will be provided with a situation, which includes a target event and some other facts that you know.  You need to prepare to act appropriately in this situation, but you don't know the details.  Give a plausible way to flesh out the situation that would make the target event more likely (but not defintely). You are expected to flesh out things that might cause b or might be a result of b, or are correlated for some other reasons like a common cause. The goal is not to entertain the reader but to consider realistic possibilities so that you can plan. The situation needs to be representative and fit the given situation. The output, fleshed out situation SHOULD NOT contain anything that makes the target definite. For instance, if the target event is 'The person is married', the fleshed out situation should not state things like 'The person has a spouse', but can state that 'The person has several siblings, and really loves kids'. Here are some example outputs that are considered appropriate and plausible:"],
+      ["user", "The target event: The next customer that walks into my breakfast shop is allergic to diary products. You also know that my breakfast shop is in Baltimore."],
+      ["assistant", "This is a 12 years old girl. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip."],
+      ["system", "Note: though this output mentioned allergy and dairy, it is fine because it did not prove or disprove the fact that 'The next customer that walks into my breakfast shop is allergic to diary products'. You only need to avoid prove or disprove the target event straightforwardly in your output"],
+      ["user", "The target event: A random person is a male. You also know that this person is from New York."],
+      ["assistant", "This person works in a finance company and is 31 years old. This person moved to New York for college and stayed here since then. "],
+      ["user", "The target event: {B}. You also know that {A}"]
+    ],
+    "scenario_generation_no_b": [
+      ["system", "You will read a SITUATION.  You need to prepare to act appropriately in this situation, but you don't know the details.  Give a plausible way to flesh out the situation.  The goal is not to entertain the reader but to consider realistic possibilities so that you can plan. The situation needs to be representative and fit the given situation. The output, fleshed out situation SHOULD NOT contain anything regarding to or overlap with the first sentence of the original situation. Here are some example outputs that are considered appropriate and plausible:"],
+      ["user", "The next customer that walks into my breakfast shop is allergic to diary products, and that my breakfast shop is in Baltimore."],
+      ["assistant", "This is a 12 years old girl. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip."],
+      ["system", "Note: though this output mentioned allergy and dairy, it is fine because it did not prove or disprove the fact that 'The next customer that walks into my breakfast shop is allergic to diary products'. You only need to avoid prove or disprove the first sentence of the situation straightforwardly in your output"],
+      ["user", "A random person is a male, and that this person is from New York."],
+      ["assistant", "This person works in a finance company and is 31 years old. This person moved to New York for college and stayed here since then. "],
+      ["user", "{A}"]
+    ],
+    "scenario_generation_non_instruction_tuned": [
+      ["A situation includes a target event and some other facts that you know. Your job is to learn from the first few examples, and give a plausible way to flesh out the last situation. The fleshed out information for each situation should make the target event more likely, but not defintely. You are expected to flesh out things that might cause the target event or might be a result of the target event, or are correlated for some other reasons like a common cause, while taking into consideration the additional information. The situation needs to be representative and fit the given situation. The output, fleshed out situation SHOULD NOT contain anything that makes the target definite. For instance, if the target event is 'The person is married', the fleshed out situation should not state things like 'The person has a spouse', but can state that 'The person has several siblings, and really loves kids'. \n\n The target event: The next customer that walks into my breakfast shop is allergic to diary products. Additional Information: my breakfast shop is in Baltimore. \n Fleshed situation: This is a 12 years old girl. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip. \n\n The target event: A random person is a male. Additional Information: this person is from New York. \n Fleshed situation: This person works in a finance company and is 31 years old. This person moved to New York for college and stayed here since then. \n\n The target event: {B}. Additional Information: {A}. \n "]
+    ],
+
+    "scenario_generation_no_b_non_instruction_tuned": [
+      ["A situation includes a some facts that you know. Your job is to learn from the first few examples, and give a plausible way to flesh out the last situation. Give a plausible way to flesh out the situation. The situation needs to be representative and fit the given situation. The output, fleshed out situation SHOULD NOT contain anything regarding to or overlap with the first sentence of the original situation. \n\n The original situation: The next customer that walks into my breakfast shop is allergic to diary products. Additional Information: my breakfast shop is in Baltimore. \n Fleshed situation: This is a 12 years old girl. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip. \n\n The original situation: A random person is a male. Additional Information: this person is from New York. \n Fleshed situation: This person works in a finance company and is 31 years old. This person moved to New York for college and stayed here since then. \n\n The original situation: {A}. \n "]
+    ],
+
+    "likelihood_ratio_non_instruction_tuned": [
+      ["You are a helpful assistant for a social science study that compares the likelihood of conditional probabilities. Given a context, consider a new circumstance that is provided. If you knew that that the circumstance did happen, how many times more or less likely would it make the target event compared to not knowing this information? Always respond with a numerical ratio (e.g., 2.5 means 2.5 times more likely, 0.5 means half as likely). Do not provide any explanations. \n\n Context: This person is from New York. New circumstance: This person works in the finance industry. Event: This person is a male. \n Estimated ratio: 1.35 \n\n Context: My breakfast shop is in Baltimore. New circumstance: This is a 12 years old girl. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip. Event: The next customer that walks into my breakfast shop is allergic to diary products. \n Estimated ratio: 1.23 \n\n Context: My breakfast shop is in Baltimore. New circumstance: This is a 12 years old girl who has been allergic to dairy products since the age of 5. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip. Event: The next customer that walks into my breakfast shop is allergic to diary products. \n Estimated ratio: 100000 \n\n Context: Today is a day in June and in Miami. New circumstance: There will be 170+ car accidents, hurting 100+ people. There will be newspaper reports for over 60% of them. Most of them will be unrelated to the weather. Event: It is going to rain tommorrow. \n Estimated ratio: 0.21 \n\n Context: {A}. New circumstance: {B} Event: {X}. \n Estimated ratio: "]
+    ],
+    "scenario_probability_given_context": [
+      ["system", "You are a helpful assistant that provides probability estimates for the likelihood of scenarios under certain known circumstances. Always respond with a numerical probability between 0 and 1. Return the value only. Note that a more detailed scenario is by its nature less likely than a more general case. Eg. A person being a 28 years old male is less probable than a person being a male. Here are some examples predictions that are considered correct and proper:"],
+      ["user", "Circumstance: A random person is a male, and that this person is from New York. Scenario: This person works in the finance industry. "],
+      ["assistant", "0.173"],
+      ["user", "Event: it is going to rain tommorrow, and that it will be a day in June and in Miami. Scenario: There will be 170+ car accidents, hurting 100+ people. There will be newspaper reports for over 60% of them. One of them will be due to a driver being careless while they are driving."],
+      ["assistant", "0.324"],
+      ["user", "Event: The next customer that walks into my breakfast shop is allergic to diary products, and that my breakfast shop is in Baltimore. Scenario: This is a 12 years old girl who has been allergic to dairy products since the age of 5. However, She walks into my shop because my shop is one of the breakfast shops that provides dairy-free breakfasts in the morning."],
+      ["assistant", "0.0314"],
+      ["user", "Event: The next customer that walks into my breakfast shop is allergic to diary products, and that my breakfast shop is in Baltimore. Scenario: This is a 12 years old girl who has been allergic to dairy products since the age of 5. However, She walks into my shop because my shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip."],
+      ["assistant", "0.00142"],
+      ["user", "Event: {B}, and that {A}. Scenario: {X}."]
+    ],
+    "likelihood_ratio": [
+      ["system", "You are a helpful assistant for a social science study that compares the likelihood of conditional probabilities. Given a context, consider a new circumstance that is provided. If you knew that that the circumstance did happen, how many times more or less likely would it make the target event compared to not knowing this information? Always respond with a numerical ratio (e.g., 2.5 means 2.5 times more likely, 0.5 means half as likely). Do not provide any explanations. Here are some predictions that are considered accurate and proper: "],
+      ["user", "Context: This person is from New York. New circumstance: This person works in the finance industry. Event: This person is a male."],
+      ["assistant", "1.35"],
+      ["user", "Context: My breakfast shop is in Baltimore. New circumstance: This is a 12 years old girl. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip. Event: The next customer that walks into my breakfast shop is allergic to diary products"],
+      ["assistant", "1.23"],
+      ["user", "Context: My breakfast shop is in Baltimore. New circumstance: This is a 12 years old girl who has been allergic to dairy products since the age of 5. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip. Event: The next customer that walks into my breakfast shop is allergic to diary products."],
+      ["user", "100000"],
+       ["user", "Context: Today is a day in June and in Miami. New circumstance: There will be 170+ car accidents, hurting 100+ people. There will be newspaper reports for over 60% of them. Most of them will be unrelated to the weather. Event: It is going to rain tommorrow."],
+      ["user", "0.21"],
+      ["user", "Context: {A}. New circumstance: {B} Event: {X}."]
+    ],
+    "final_b_estimation_given_scenario": [
+      ["system", "You are a helpful assistant that provides probability estimates for the likelihood of events. Always respond with a numerical probability between 0 and 1. Return the value only. Here are some examples predictions that are considered correct and proper:"],
+      ["user", "Event: A random person is a male, given that this person is from New York, and that this person works in the finance industry."],
+      ["assistant", "0.213"],
+      ["user", "Event: it is going to rain tommorrow, given that it will be a day in June and in Miami, and that there will be 170+ car accidents, hurting 100+ people. There will be newspaper reports for over 60% of them. Most of them will be unrelated to the weather."],
+      ["assistant", "0.051"],
+      ["user", "Event: The next customer that walks into my breakfast shop is allergic to diary products, given that my breakfast shop is in Baltimore, and that this is a 12 years old girl who has been allergic to dairy products since the age of 5. My shop is one of the breakfast shops that provides dairy-free breakfasts in the morning. She ended up fine after eating my breakfast, and left a 5 dollar tip."],
+      ["assistant", "0.020"],
+      ["user", "Event: {B}, given that {A}. You also know that {X}."]
+    ],
+    "initial_b_estimation_nonbinary": [
+      ["system", "You are a helpful assistant for a social study that estimates the answer distribution for a question given some known facts. The question is given along a list of pontential answers that the repspondent may come up with in response to that question. Some conditions (facts) are also provided to specialize the situation. Make an informed prediction that takes into consideration the facts that is provided. Return a list of decimals that sums to 1. Each element in the list should correspond to one value in the answer list (domain). Here are some predictions that are considered accurate and proper: "],
+      ["user", "Question: What is the gender of the respondent? [Male; Female; Non-binary]; You know that This person is from New York."],
+      ["assistant", "0.5173, 0.4716, 0.0111"],
+      ["user", "Question: Is the respondent happy with their current job? [Yes; No]; You know that This person has been working in the finance industry, This person is 30 years old, and that This person's highest level of education is amaster's degree."],
+      ["assistant", "0.6393, 0.3607"],
+      ["user", "Question: How many children does the respondent have? [0; 1; 2; 3; 4; more than 4]; You know that this person is married, he is from the US, and that he is 42 years old."],
+      ["assistant", "0.0500; 0.3300; 0.3100; 0.2100; 0.0800; 0.0200"],
+      ["user", "Question: {B}; You know that {A}."]
+    ],
+    "final_b_estimation_given_scenario_nonbinary": [
+      ["system", "You are a helpful assistant for a social study that estimates the answer distribution for a question given some known facts. The question is given along a list of pontential answers that the repspondent may come up with in response to that question. Some conditions (facts) are also provided to specialize the situation. Make an informed prediction that takes into consideration the facts that is provided. Return a list of decimals that sums to 1. Each element in the list should correspond to one value in the answer list (domain). Here are some predictions that are accurate and proper: "],
+      ["user", "Question: What is the gender of the respondent? [Male; Female; Non-binary]; You know that This person is from New York, this person works 100 hours a week on average but has a relatively low salary, and that this person has two children to raise while their parterner is not employed."],
+      ["assistant", "0.57, 0.42, 0.02"],
+      ["user", "Question: Is the respondent happy with their current job? [Yes; No]; You know that This person has been working in the finance industry, This person is 30 years old, and that This person's highest level of education is amaster's degree. You also know that This person received a raise in their salary last month because they works very hard. This person rarely makes mistakes at work."],
+      ["assistant", "0.81, 0.19"],
+      ["user", "Question: How many children does the respondent have? [0; 1; 2; 3; 4; more than 4]; You know that this person is married, he is from the US, and that he is 42 years old. You also know that this is a 42-year-old male who loves kids. His parents used to have 5 kids, and he was the youngest. In his spare time he loves taking his children to parks and museums for fun. "],
+      ["assistant", "0; 0; 0.13; 0.19; 0.45; 0.23"],
+      ["user", "Event: {B}; You know that {A}. You also know that {X}."]
+    ]
+  }
+}
