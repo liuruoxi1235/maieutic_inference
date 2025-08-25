@@ -1359,9 +1359,9 @@ def main():
     output_folder = "/home/rliu79/reasoning/experiment_maieutic_compare/verbal_openai_output"
     # IMPORTANT: Replace with your actual OpenAI API key
     OPENAI_API_KEY = 'Your_OpenAI_API_Key_Here'
+    #Customize the specific file paths below if needed:
     #############################################################################################
 
-    # Define file paths
     config_path = os.path.join(input_folder, "maieutic_config_verbal_openai.json")
     input_path = os.path.join(input_folder, "input.txt")
     output_path = os.path.join(output_folder, "output.txt")

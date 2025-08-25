@@ -1,7 +1,7 @@
 Maieutic Prompting with Multiple Importance Sampling (MIS)
 Quick start:
 1. Install dependencies: pip install -r requirements.txt
-2. Define your configuration as config.json. See config.json in the example "experiment_maieutic_compare" directory for an example or edit the ./templates/confg_template.json.
+2. Define your configuration as config.json. See config file examples in the example "experiment_maieutic_compare" directory for an example or edit the ./templates/confg_template.json.
 2. Define your input file as input.txt. See input.txt in the example "experiment_maieutic_compare" directory for an example or edit the ./templates/input_template.txt.
 3. Put your OpenAI API key in the script where indicated. Latest agentic script is ./scripts/Agent_v3_5.py
 4. Define path to the input directory, where config.json and input.txt are located, in the script where indicated.

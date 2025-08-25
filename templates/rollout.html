@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rollout View</title>
+    <style>
+        /* Basic styling for clarity */
+        .node {
+            margin-left: 20px;
+            border-left: 1px dashed #ccc;
+            padding-left: 10px;
+            margin-top: 5px;
+        }
+        .toggle {
+            cursor: pointer;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        // Toggle the display of the element with the given id.
+        function toggleVisibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display === "none") {
+                e.style.display = "block";
+            } else {
+                e.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Rollout View</h1>
+    <div>
+        {% macro render_node(node, prefix) %}
+            <div class="node">
+                <div>
+                    <strong>Main {{ node.main }}</strong>
+                    {% for step in node.steps %}
+                        <div>[Step {{ step.step }}] : {{ step.message }}</div>
+                    {% endfor %}
+                </div>
+                {% if node.children|length > 0 %}
+                    <div class="toggle" onclick="toggleVisibility('child-{{ prefix }}')">[+]</div>
+                    <div id="child-{{ prefix }}" style="display: none;">
+                        {% for child in node.children %}
+                            {{ render_node(child, prefix ~ '-' ~ child.main) }}
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        {% endmacro %}
+        
+        {{ render_node(tree, tree.main) }}
+    </div>
+</body>
+</html>
