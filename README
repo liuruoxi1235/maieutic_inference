@@ -1,0 +1,41 @@
+Maieutic Prompting with Multiple Importance Sampling (MIS)
+Quick start:
+1. Install dependencies: pip install -r requirements.txt
+2. Define your configuration as config.json. See config.json in the example "experiment_maieutic_compare" directory for an example or edit the ./templates/confg_template.json.
+2. Define your input file as input.txt. See input.txt in the example "experiment_maieutic_compare" directory for an example or edit the ./templates/input_template.txt.
+3. Put your OpenAI API key in the script where indicated. Latest agentic script is ./scripts/Agent_v3_5.py
+4. Define path to the input directory, where config.json and input.txt are located, in the script where indicated.
+5. Run the script: python ./scripts/Agent_v3_5.py
+6. Results will be saved to the output directory specified in the script.
+
+
+###############################################################################################################
+Previous: Commonsense reasoning with backtracking
+
+Idea: Keep a tree of the "possibile conditions of the setting". 
+At the root of the refinement tree, we start with some bound variables and a target variable.
+We keep each node as a structured json object (potentially try natural language ways of doing this). We obtain the root by calling the LLM to convert the question to json.
+We can perform many operations on any of the leaves, including:
+1. Propose a new unbound variable
+2. Propose the domain for an unbound variable
+3. Estimate the probability distribution of an unbound variable whose domain is defined. This action makes this variable fully defined, so spawn children, pop this node, and enqueue the children
+4. Estimate the probability of the target variable. This action makes this node a leaf. pop this node
+
+Essentially we expand from a node to its children when we fully define a variable. (propose -> domain -> prob)
+After steps are depleted, we ask each leaf to estimate target prob, and backtrack to get the target distribution at the root. 
+Eg. If a node has two children splitted by "Weather is raining today" with prob "Yes" = 0.6, "No" = 0.4, then we take a weighted average for the target prob distributions at each of the children 
+to derive the target distribution at this node. Recursively to get to the root.
+
+
+An example node:
+
+{ "Target": 
+[ { "Name": “Education Level", "Value": [] } ], 
+“Unbound Condition": 
+[{"Name": “Income level”, "Value": [“<3,000 usd per month”, “3,000 - 6,000 usd per month”, “6,000 - 10,000 usd per month”, “>10,000 usd per month”]}], 
+“Bound Condition": 
+[ { "Name": "Location", "Value": “Baltimore” }, 
+{ "Name": “Gender”, "Value": “Female”}, 
+{ "Name": “Estimated Age”, "Value":  “55+” } ] }
+###############################################################################################################
+
